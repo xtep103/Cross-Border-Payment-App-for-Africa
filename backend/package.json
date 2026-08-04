@@ -4,8 +4,8 @@
   "description": "Cross-Border Payment App Backend",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
+    "start": "node api.js && node src/index.js",
+    "dev": "node api.js && nodemon src/index.js",
     "test": "jest --runInBand",
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --ext .js --fix",

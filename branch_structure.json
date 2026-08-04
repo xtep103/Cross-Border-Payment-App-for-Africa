@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/900-georestriction-xff-bypass",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/900-georestriction-xff-bypass": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/900-georestriction-xff-bypass",
+    "origin"
+  ]
+}
